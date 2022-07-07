@@ -1,28 +1,32 @@
-Package: com.supermamon.newpackage
-Version: 2.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (>7.0), mobilesubstrate
+Package: com.no5up-kanji.relicloader
+Version: 3.3.2
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
-Size: 854
-MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
-
-Package: com.supermamon.oldpackage
-Version: 1.0.0-1
+Maintainer: no5up x Kanji
+Depends: mobilesubstrate (>= 0.9.5000), com.no5up-kanji.librelic (>= 2.1.1)
+Conflicts: com.wyattgahm-kanji.shadowx
+Filename: ./debs/com.no5up-kanji.relicloader
+Size: 316104
+MD5sum: f5b865d0e61079ee419e99e96d411833
+SHA1: f032c6fc8e5d495eec4af15d28315386eb87c03f
+SHA256: 8f444d3d56dd61dbd15a3c481daab4466357e34f3c6326d68617fdae26dfba58
 Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (<7.0)
-Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+Description: A ShadowX implementation for librelic 2.1.x
+Depiction: https://fh7saf79.github.io/Repo/depictions/com.no5up-kanji.relicloader
+Author: no5up x Kanji
+Name: relicloader
 
+Package: com.no5up-kanji.librelic
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: no5up x Kanji
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.no5up-kanji.librelic
+Size: 6528
+MD5sum: da8a2c0144047ade4d9b54f04e7982c0
+SHA1: 33a7f72aa50664c70c06b3841ee148abfbef3c39
+SHA256: 9227755f12781edc98545bee7cf337a854f0493bf3af932a3f6d0e1f3db937a1
+Section: Tweaks
+Description: library for Snapchat hooking.
+Depiction: https://fh7saf79.github.io/Repo/depictions/com.no5up-kanji.librelic
+Author: no5up x Kanji
+Name: librelic

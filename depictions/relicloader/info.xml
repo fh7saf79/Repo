@@ -1,0 +1,23 @@
+<package>
+	<id>com.no5up-kanji.relicloader</id>
+	<name>relicloader</name>
+	<version>3.3.2</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>7.0</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies>mobilesubstrate (>= 0.9.5000), com.no5up-kanji.librelic (>= 2.1.1)</dependencies>
+	<descriptionlist>
+		<description>This is an old package. Requires iOS 7 and below..</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>

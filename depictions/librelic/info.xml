@@ -1,0 +1,23 @@
+<package>
+	<id>com.no5up-kanji.librelic</id>
+	<name>librelic</name>
+	<version>2.1.1</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>7.0</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies>mobilesubstrate (>= 0.9.5000)</dependencies>
+	<descriptionlist>
+		<description>library for Snapchat hooking.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>
